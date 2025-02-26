@@ -1,4 +1,38 @@
 /* main page */
+body {
+  background-color: black;
+}
+.brand-name {
+  display: block;
+  color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.main-header {
+  list-style: none;
+  padding-left: 10px;
+  margin-top: 20px;
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-options {
+  font-size: 20px;
+  padding-left: 10px;
+  color: white;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+.alpsLogo {
+  width: 100%;
+}
 
 /* Shopping cart page  */
 
