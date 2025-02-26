@@ -34,6 +34,19 @@ header {
   width: 100%;
 }
 
+.product-images {
+  width: 50%;
+}
+
+.product-figures {
+  margin-left: 10px;
+}
+
+.product-Container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 /* Shopping cart page  */
 
 /* Product overview page */
