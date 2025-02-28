@@ -36,10 +36,24 @@ header {
 
 .product-images {
   width: 50%;
+  border-radius: 3%;
 }
 
 .product-figures {
   margin-left: 10px;
+  display: flex;
+  gap: 0.5rem;
+  color: white;
+}
+
+figcaption {
+  color: white;
+}
+.product-info {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 0.8rem;
 }
 
 .product-Container {
