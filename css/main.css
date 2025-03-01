@@ -42,16 +42,13 @@ header {
   color: white;
 }
 
-.price-tags {
-  text-align: start;
-  font-size: large;
-}
 /* .product-info {
    display: flex; 
   align-items: center;
   color: white;
-  font-size: 0.8rem;
-} */
+  font-size: 1rem;
+  gap: 0.5rem;
+}
 
 .product-Container {
   display: grid;
@@ -72,11 +69,17 @@ footer {
   font-size: 25px;
 }
 
+h3 {
+  color: white;
+}
 /* Shopping cart page  */
 
 /* Product overview page */
 .product-page-images {
   width: 40%;
+}
+h2 {
+  color: white;
 }
 /* Detail page */
 
