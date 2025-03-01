@@ -4,19 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
-    <link rel="stylesheet" href="main.css" />
-    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/main.js" defer></script>
   </head>
   <body>
     <header>
-      <h1>placeholder</h1>
+      <h1 class="brand-name">ALP Shops</h1>
       <nav>
-        <ul>
-          <a href="main.html"> <li>Home</li></a>
-          <a href="cart.html">
+        <ul class="main-header">
+          <a class="header-options" href="main.html"> <li>Home</li></a>
+          <a class="header-options" href="cart.html">
             <li>Shopping Cart</li>
           </a>
-          <a href="signIn.html">
+          <a class="header-options" href="signIn.html">
             <li>Sign in</li>
           </a>
         </ul>
@@ -24,9 +24,55 @@
     </header>
 
     <main>
-      <!-- banner image -->
+      <div>
+        <form action="signIn.html" class="signIn-form">
+          <label for="fname" class="fname">First Name:</label>
+          <input
+            class="fname-box"
+            type="text"
+            name="Your First Name"
+            placeholder="Your First Name..."
+            style="color: black"
+          />
+          <br />
+
+          <label for="lname" class="lname">Last Name:</label>
+          <input
+            class="lname-box"
+            type="text"
+            name="Your Last Name"
+            placeholder="Your Last Name..."
+            style="color: black"
+          />
+          <br />
+
+          <label for="Email" class="email">Email Adress:</label>
+          <input
+            class="email-box"
+            type="text"
+            name="Email"
+            placeholder="Your Email..."
+            style="color: black"
+          />
+          <br />
+
+          <label for="Phone-number" class="tNumber">Phone Number:</label>
+          <input
+            class="tNumber-box"
+            type="text"
+            name="Phone-number"
+            placeholder="Your Phone Number..."
+            style="color: black"
+          />
+        </form>
+      </div>
     </main>
 
-    <footer></footer>
+    <footer>
+      <h4>Contact Us</h4>
+      <p>Email: ALPShops@gmail.com</p>
+      <p>Phone Number: 123456789</p>
+      <p>Social Media: ALP-Shops</p>
+    </footer>
   </body>
 </html>
