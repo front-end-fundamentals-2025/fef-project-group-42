@@ -46,9 +46,6 @@ header {
   color: white;
 }
 
-figcaption {
-  color: white;
-}
 /* .product-info {
    display: flex; 
   align-items: center;
@@ -61,12 +58,24 @@ figcaption {
   grid-template-columns: repeat(3, 1fr);
 }
 
+a {
+  text-decoration: none;
+}
+
 footer {
   border-top: 2px solid white;
 }
+<<<<<<< Updated upstream
 h2 {
   color: white;
 }
+=======
+
+.price-tags {
+  text-align: start;
+}
+
+>>>>>>> Stashed changes
 /* Shopping cart page  */
 
 /* Product overview page */
