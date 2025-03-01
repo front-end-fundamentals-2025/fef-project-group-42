@@ -66,6 +66,10 @@ footer {
   border-top: 2px solid white;
 }
 
+.price-tags {
+  text-align: start;
+}
+
 /* Shopping cart page  */
 
 /* Product overview page */
