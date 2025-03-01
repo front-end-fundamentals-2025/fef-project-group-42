@@ -64,11 +64,15 @@ figcaption {
 footer {
   border-top: 2px solid white;
 }
-
+h2 {
+  color: white;
+}
 /* Shopping cart page  */
 
 /* Product overview page */
-
+.product-page-images {
+  width: 40%;
+}
 /* Detail page */
 
 /* sign in page */
