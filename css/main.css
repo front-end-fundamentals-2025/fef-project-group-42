@@ -35,7 +35,7 @@ header {
 }
 
 .product-images {
-  width: 50%;
+  width: 50%; /* we need to change this */
   border-radius: 3%;
 }
 
@@ -49,16 +49,20 @@ header {
 figcaption {
   color: white;
 }
-.product-info {
-  /* display: flex; */
+/* .product-info {
+   display: flex; 
   align-items: center;
   color: white;
   font-size: 0.8rem;
-}
+} */
 
 .product-Container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+footer {
+  border-top: 2px solid white;
 }
 
 /* Shopping cart page  */
