@@ -12,7 +12,9 @@ header {
   align-items: center;
   padding-left: 10px;
 }
-
+.alpsLogo {
+  width: 100%;
+}
 .main-header {
   list-style: none;
   padding-left: 10px;
