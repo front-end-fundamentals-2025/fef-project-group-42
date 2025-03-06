@@ -80,6 +80,10 @@ footer {
 h2 {
   color: white;
 }
+.price-tag {
+  padding-left: 2.5rem;
+  font-size: 2rem;
+}
 /* Detail page */
 
 /* sign in page */
