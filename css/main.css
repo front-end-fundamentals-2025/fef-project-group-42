@@ -1,7 +1,14 @@
 /* main page */
-body {
+body,
+html {
   background-color: black;
   font-family: "Montserrat", serif;
+  height: 100%;
+  margin-left: 5px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .button2 {
@@ -42,11 +49,11 @@ body {
 header {
   display: flex;
   align-items: center;
-  padding-left: 10px;
 }
 
 .alpsLogo {
   width: 100%;
+  margin-left: 0;
 }
 
 .main-header {
@@ -97,7 +104,15 @@ h3 {
 footer {
   border-top: 2px solid white;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: auto;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /* responsive page */
@@ -106,20 +121,31 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+  .product-page-images {
+    width: 30%;
+    border-radius: 3%;
+  }
 }
 
 @media screen and (min-width: 1025px /* ipad pro size: 1024px */) {
   .product-Container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-  } /* we take avg laptop monitor size for the 3 column size as an example */
+  } /* we take avg laptop monitor size for the 3 column size as an example (1366x768 px) */
+
+  .product-page-images {
+    width: 40%;
+    border-radius: 3%;
+  }
 }
 
 /* Shopping cart page  */
 
 /* Product overview page */
+
 .product-page-images {
   width: 40%;
+  height: 40%;
 }
 
 h2 {
