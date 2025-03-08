@@ -119,6 +119,8 @@ h2 {
 .price-tag {
   padding-left: 2.5rem;
   font-size: 2rem;
+  animation: wiggle 2s linear;
+  color: green;
 }
 
 /* sign in page */
