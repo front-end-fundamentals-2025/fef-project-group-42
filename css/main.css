@@ -85,11 +85,6 @@ header {
   gap: 0.5rem;
 }
 
-.product-Container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
 a {
   text-decoration: none;
 }
@@ -103,6 +98,21 @@ footer {
   border-top: 2px solid white;
   color: white;
   font-size: 25px;
+}
+
+/* responsive page */
+@media screen and (min-width: 415px /* iphone xr size: 414px */) {
+  .product-Container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1025px /* ipad pro size: 1024px */) {
+  .product-Container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  } /* we take avg laptop monitor size for the 3 column size as an example */
 }
 
 /* Shopping cart page  */
@@ -120,6 +130,10 @@ h2 {
   padding-left: 2.5rem;
   font-size: 2rem;
   animation: wiggle 2s linear;
+  color: green;
+}
+
+.price-tags {
   color: green;
 }
 
