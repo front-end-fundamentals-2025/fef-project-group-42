@@ -1,7 +1,39 @@
 /* main page */
 body {
   background-color: black;
+  font-family: "Montserrat", serif;
 }
+
+.button2 {
+  animation: wiggle 2s linear infinite;
+}
+
+@keyframes wiggle {
+  0%,
+  70% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}
+
 .brand-name {
   display: block;
   color: white;
@@ -12,9 +44,11 @@ header {
   align-items: center;
   padding-left: 10px;
 }
+
 .alpsLogo {
   width: 100%;
 }
+
 .main-header {
   list-style: none;
   padding-left: 10px;
@@ -77,14 +111,15 @@ footer {
 .product-page-images {
   width: 40%;
 }
+
 h2 {
   color: white;
 }
+
 .price-tag {
   padding-left: 2.5rem;
   font-size: 2rem;
 }
-/* Detail page */
 
 /* sign in page */
 
@@ -101,7 +136,9 @@ label {
 .fname-box,
 .lname-box,
 .email-box,
-.tNumber-box {
+.tNumber-box,
+.password-box,
+.Cpassword-box {
   color: white;
   margin-top: 5px;
   margin-bottom: 10px;
@@ -109,4 +146,17 @@ label {
   padding-bottom: 10px;
   padding-top: 10px;
   padding-left: 5px;
+}
+
+.SU-button {
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 10px;
+  background-color: greenyellow;
+  display: block;
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: large;
 }

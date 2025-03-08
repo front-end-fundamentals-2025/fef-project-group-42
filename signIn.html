@@ -6,6 +6,12 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="css/main.css" />
     <script src="js/main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -14,7 +20,7 @@
         <ul class="main-header">
           <a class="header-options" href="main.html"> <li>Home</li></a>
           <a class="header-options" href="cart.html">
-            <li>Shopping Cart</li>
+            <li class="button2">Shopping Cart</li>
           </a>
           <a class="header-options" href="signIn.html">
             <li>Sign in</li>
@@ -64,8 +70,37 @@
             placeholder="Your Phone Number..."
             style="color: black"
           />
+          <br />
+
+          <label for="Password" class="password">Choose a Password:</label>
+          <input
+            class="password-box"
+            type="text"
+            name="password"
+            placeholder="Your Password..."
+            style="color: black"
+          />
+          <br />
+
+          <label for="Cpassword" class="Cpassword"
+            >Confirm Your Password:</label
+          >
+          <input
+            class="Cpassword-box"
+            type="text"
+            name="Cpassword"
+            placeholder="Confirm Your Password..."
+            style="color: black"
+          />
+          <br />
         </form>
       </div>
+      <br />
+      <div>
+        <button class="SU-button">Sign Up</button>
+      </div>
+      <br />
+      <br />
     </main>
 
     <footer>
