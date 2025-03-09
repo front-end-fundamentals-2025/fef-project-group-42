@@ -75,15 +75,49 @@ header {
 }
 
 .product-images {
-  width: 50%; /* we need to change this */
-  border-radius: 3%;
+  width: 80%; /* we need to change this */
+  border-radius: 5%;
 }
 
 .product-figures {
   margin-left: 10px;
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
   color: white;
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  color: rgb(60, 115, 117);
+  left: 40%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900;
+  opacity: 0;
+}
+.caption-watch {
+  position: absolute;
+  color: rgb(60, 115, 117);
+  left: 42.5%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.product-figures:hover .product-images {
+  scale: 1.04;
+  transition: all ease-in-out;
+  transition-duration: 400ms;
+  filter: blur(10px);
+}
+.product-figures:hover figcaption {
+  opacity: 5;
+  transition-delay: 250ms;
 }
 
 .product-info {
@@ -200,12 +234,12 @@ label {
 }
 
 .SU-button {
-  margin-left: 35%;
-  margin-right: 35%;
+  margin-left: 25%;
+  margin-right: 25%;
   border-radius: 10px;
   background-color: greenyellow;
   display: block;
-  width: 30%;
+  width: 50%;
   padding-top: 10px;
   padding-bottom: 10px;
   font-weight: 700;
