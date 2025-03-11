@@ -91,7 +91,7 @@ header {
 
 figcaption {
   position: absolute;
-  color: rgb(255, 14, 139);
+  color: rgb(16, 151, 149);
   left: 40%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -102,7 +102,7 @@ figcaption {
 }
 .caption-watch {
   position: absolute;
-  color: rgb(255, 14, 139);
+  color: blue;
   left: 42.5%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -190,21 +190,9 @@ p {
   width: 40%;
   height: 40%;
 }
-
 .price-tag {
   padding-left: 2.5rem;
   font-size: 2rem;
   animation: wiggle 2s linear;
   color: rgb(255, 14, 139);
 }
-
-.price-tags {
-  color: green;
-}
-
-.Mode-buttons {
-  position: absolute;
-  right: 0;
-  padding-right: 1rem;
-}
-/* sign in page */
