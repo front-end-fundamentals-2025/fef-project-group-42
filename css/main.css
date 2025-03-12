@@ -17,6 +17,44 @@ body {
   animation: wiggle 2s linear infinite;
 }
 
+.button1::before,
+.button2::before,
+.button3::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.button1:hover:before,
+.button2:hover:before,
+.button3:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.button1::before,
+.button2::before,
+.button3::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: rgb(255, 14, 139);
+  z-index: -1;
+  transition: transform 0.3s ease;
+  border-radius: 32px;
+}
+
+.button1,
+.button2,
+.button3 {
+  position: relative;
+  padding: 8px;
+}
+
 @keyframes wiggle {
   0%,
   70% {
@@ -64,7 +102,7 @@ header {
 .alpsLogo {
   width: 100%;
   margin-left: 0;
-  margin-top: 81.88px;
+  margin-top: 86px;
 }
 
 .main-header {
@@ -95,7 +133,7 @@ header {
   color: rgb(255, 14, 139);
   padding-left: 0px;
   text-decoration: none;
-  padding-bottom: 10px;
+  padding-top: 8px;
   justify-content: center;
   padding-left: 0;
   opacity: 0;
@@ -220,6 +258,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
   margin-top: auto;
+  padding-left: 5px;
 }
 
 p {
