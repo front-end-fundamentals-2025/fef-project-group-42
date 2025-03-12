@@ -201,3 +201,11 @@ p {
   animation: wiggle 2s linear;
   color: rgb(255, 14, 139);
 }
+
+.buy-button {
+  font-size: 20px;
+  padding: 8px;
+  margin-left: 2rem;
+  background-color: rgb(145, 191, 230);
+  border-radius: 15px;
+}
