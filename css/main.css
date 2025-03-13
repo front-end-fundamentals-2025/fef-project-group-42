@@ -102,7 +102,7 @@ header {
 .alpsLogo {
   width: 100%;
   margin-left: 0;
-  margin-top: 86px;
+  margin-top: 298px;
 }
 
 .main-header {
@@ -278,7 +278,10 @@ p {
   margin-top: 5px;
   margin-bottom: 5px;
 }
-
+.product-Container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
 /* responsive page */
 @media screen and (min-width: 415px /* iphone xr size: 414px */) {
   .product-Container {
@@ -312,6 +315,10 @@ p {
   .product-images {
     width: 80%;
   }
+
+  .alpsLogo {
+    margin-top: 86px;
+  }
 }
 
 @media screen and (min-width: 1025px /* ipad pro size: 1024px */) {
@@ -335,11 +342,10 @@ p {
   .product-images {
     width: 80%;
   }
+  .alpsLogo {
+    margin-top: 86px;
+  }
 }
-
-/* Shopping cart page  */
-
-/* Product overview page */
 
 .product-page-images {
   width: 40%;
