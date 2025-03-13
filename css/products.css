@@ -192,6 +192,11 @@ p {
   margin-bottom: 5px;
 }
 
+.product-Container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
 /* responsive page */
 @media screen and (min-width: 415px /* iphone xr size: 414px */) {
   .product-Container {
