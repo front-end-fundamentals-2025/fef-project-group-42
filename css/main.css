@@ -175,17 +175,30 @@ header {
 }
 
 #LM-button {
-  border-radius: 30px;
-  background-color: rgb(201, 201, 201);
-  border: 3px;
+  background-color: inherit;
+  border: 1px;
+}
+
+.sun {
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
+  background-color: inherit;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
 #DM-button {
-  border-radius: 30px;
-  background-color: rgb(46, 46, 46);
-  color: white;
+  background-color: inherit;
   border: 3px;
 }
+.moon {
+  width: 40px;
+  height: 40px;
+  background-color: inherit;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 30%;
+}
+
 .product-images {
   width: 60%;
   border-radius: 5%;
@@ -345,6 +358,8 @@ p {
 }
 
 .Mode-buttons {
+  display: flex;
+  /* grid-template-columns: 1fr, 1fr; */
   position: fixed;
   right: 0;
   padding-right: 1rem;
