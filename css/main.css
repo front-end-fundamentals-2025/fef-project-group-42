@@ -102,7 +102,7 @@ header {
 .alpsLogo {
   width: 100%;
   margin-left: 0;
-  margin-top: 86px;
+  margin-top: 298px;
 }
 
 .main-header {
@@ -312,6 +312,10 @@ p {
   .product-images {
     width: 80%;
   }
+
+  .alpsLogo {
+    margin-top: 86px;
+  }
 }
 
 @media screen and (min-width: 1025px /* ipad pro size: 1024px */) {
@@ -334,6 +338,10 @@ p {
 
   .product-images {
     width: 80%;
+  }
+
+  .alpsLogo {
+    margin-top: 86px;
   }
 }
 

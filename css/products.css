@@ -95,6 +95,7 @@ header {
 .alpsLogo {
   width: 100%;
   margin-left: 0;
+  margin-top: 298px;
 }
 
 .main-header {
@@ -197,6 +198,14 @@ p {
   grid-template-columns: repeat(1, 1fr);
 }
 
+.product-page-images {
+  width: 20%;
+  height: 20%;
+  margin-left: 5px;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
 /* responsive page */
 @media screen and (min-width: 415px /* iphone xr size: 414px */) {
   .product-Container {
@@ -204,7 +213,7 @@ p {
     grid-template-columns: repeat(2, 1fr);
   }
   .product-page-images {
-    width: 30%;
+    width: 50%;
     border-radius: 3%;
   }
   .main-header {
@@ -214,6 +223,10 @@ p {
     text-align: start;
     display: flex;
     flex-direction: row;
+  }
+
+  .alpsLogo {
+    margin-top: 86px;
   }
 }
 
@@ -227,19 +240,11 @@ p {
     width: 40%;
     border-radius: 3%;
   }
+  .alpsLogo {
+    margin-top: 86px;
+  }
 }
 
-/* Shopping cart page  */
-
-/* Product overview page */
-
-.product-page-images {
-  width: 40%;
-  height: 40%;
-  margin-left: 5px;
-  background-color: white;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
-}
 .price-tag {
   padding-left: 2.5rem;
   font-size: 2rem;
@@ -247,10 +252,10 @@ p {
   color: rgb(255, 14, 139);
 }
 
-.add-to-cart {
+#add-to-cart {
   font-size: 20px;
   padding: 8px;
   margin-left: 2rem;
-  background-color: rgb(145, 191, 230);
+  background-color: rgb(88, 170, 113);
   border-radius: 15px;
 }
