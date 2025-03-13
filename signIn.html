@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/signin.css" />
     <script src="js/main.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,14 +35,18 @@
         </ul>
       </nav>
       <div class="Mode-buttons">
-        <button id="LM-button">Light mode</button>
+        <button id="LM-button">
+          <img class="sun" src="images/sun.png" alt="sun-icon" />
+        </button>
         <br />
-        <button id="DM-button">Dark mode</button>
+        <button id="DM-button">
+          <img class="moon" src="images/moon.png" alt="moon-icon" />
+        </button>
       </div>
     </header>
 
     <main>
-      <div>
+      <div class="sign-in-main">
         <form action="#" class="signIn-form">
           <label for="fname" class="fname">First Name:</label>
           <input
@@ -114,9 +119,6 @@
           <button class="SU-button">Sign Up</button>
         </form>
       </div>
-      <br />
-      <br />
-      <br />
     </main>
 
     <footer>

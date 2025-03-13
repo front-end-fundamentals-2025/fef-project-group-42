@@ -48,6 +48,8 @@ body {
 
 header {
   display: flex;
+  overflow: hidden;
+  position: fixed;
   align-items: center;
 }
 
@@ -108,9 +110,34 @@ header {
 }
 
 .Mode-buttons {
+  display: flex;
   position: absolute;
   right: 0;
   padding-right: 20px;
+}
+#LM-button {
+  background-color: inherit;
+  border: 1px;
+}
+
+.sun {
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
+  background-color: inherit;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+#DM-button {
+  background-color: inherit;
+  border: 3px;
+}
+.moon {
+  width: 40px;
+  height: 40px;
+  background-color: inherit;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 30%;
 }
 /* responsive */
 @media screen and (min-width: 415px /* iphone xr size: 414px */) {
@@ -130,4 +157,7 @@ header {
     display: flex;
     flex-direction: row;
   }
+}
+.sign-in-main {
+  margin-top: 100px;
 }
