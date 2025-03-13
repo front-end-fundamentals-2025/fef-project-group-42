@@ -114,10 +114,11 @@ function loadCart() {
     item.classList.add("cart-item");
 
     item.innerHTML = `
-      <img src="${product.image}" width="80%">
+      <img class="image-cart" src="${product.image}" width=80%" >
+
       <p>${product.name}</p> 
       <p>${product.price}</p>
-      <button onclick="removeFromCart(${index})">Remove</button>
+      <button onclick="removeFromCart(${index})" class="remove-button">Remove</button>
       `; /* $ this inserts variables into a string */
     /* adding the item to the container */
     cartContainer.appendChild(item);
