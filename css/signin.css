@@ -42,7 +42,7 @@ body {
 }
 
 .brand-name {
-  color: rgb(113, 113, 113);
+  color: rgb(255, 14, 139);
   display: block;
 }
 
@@ -107,6 +107,7 @@ header {
   padding-bottom: 10px;
   font-weight: 700;
   font-size: large;
+  margin-bottom: 50px;
 }
 
 .Mode-buttons {
@@ -160,4 +161,9 @@ header {
 }
 .sign-in-main {
   margin-top: 100px;
+}
+
+#submittedMessage {
+  font-size: 50px;
+  color: green;
 }
