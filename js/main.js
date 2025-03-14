@@ -161,3 +161,20 @@ document
       }, 10);
     }, 500);
   });
+
+document
+  .querySelector(".payment-images")
+  .addEventListener("Pay", function (event) {
+    event.preventDefault();
+    const payment = document.querySelector(".payment-images");
+    const thanks = document.getElementById("paymentMessage");
+    payment.classList.add("fade-out");
+
+    setTimeout(() => {
+      payment.style.display = "none";
+      thanks.style.display = "block";
+      setTimeout(() => {
+        thanks.classList.add("fade-in");
+      }, 10);
+    }, 500);
+  });
