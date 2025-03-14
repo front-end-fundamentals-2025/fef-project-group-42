@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home Page</title>
-    <link rel="stylesheet" href="css/cart.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/payment.css" />
+    <script src="js/main.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <script src="js/main.js" defer></script>
   </head>
   <body>
     <header>
@@ -44,18 +45,27 @@
       </div>
     </header>
 
-    <h2 class="cart-header">Your Shopping Cart</h2>
-    <div id="cart-items"></div>
     <main>
-      <br />
-      <br />
-      <div class="Payment-button">
-        <nav>
-          <a href="payment.html">
-            <button>Pay</button>
-          </a>
-        </nav>
+      <div class="payment-images">
+        <button id="applePay">
+          <img class="APay" src="images/apple.png" alt="Apple pay" />
+        </button>
+        <button>
+          <img
+            src="images/pngtree-google-pay-payment-software-vector-png-image_9183298.png"
+            alt="google pay"
+          />
+        </button>
+        <button>
+          <img
+            src="images/what-are-the-visa-and-mastercard-limited-acceptance-programs-8.png"
+            alt="visa and mastercard"
+          />
+        </button>
       </div>
+
+      <br />
+      <br />
     </main>
 
     <footer>
